@@ -1,0 +1,16 @@
+- type: web
+    name: passkey-assetlinks
+    runtime: static
+    buildCommand: echo "No build required"
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: Content-Type
+        value: application/json
+      - path: /*
+        name: Access-Control-Allow-Origin
+        value: "*"
+    routes:
+      - type: rewrite
+        source: /.well-known/assetlinks.json
+        destination: /.well-known/assetlinks.json

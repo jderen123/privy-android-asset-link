@@ -1,0 +1,12 @@
+[
+   {
+     "relation": ["delegate_permission/common.get_login_creds"],
+     "target": {
+       "namespace": "android_app",
+       "package_name": "io.privy.sdktestapp",
+       "sha256_cert_fingerprints": [
+         "D3:94:C1:DE:49:08:42:1B:20:56:19:99:44:97:31:B2:65:85:FC:9F:37:45:55:98:FC:53:6E:D3:06:71:F5:81"
+       ]
+     }
+   }
+ ]
